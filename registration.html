@@ -1,0 +1,75 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <title>REGISTRATION PAGE:</title>
+<style>
+div.b{
+text-align: right;
+font-size: 30px
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+</style>
+</head>
+<body>
+
+<div class="b">
+<a href="https://serc.iiit.ac.in/rdip">RDIP</a>
+</div>	
+<a href="https://www.iiit.ac.in"><img src="https://www.iiit.ac.in/img/iiit-new.png" height=80px></a>
+<ul>
+	<li><a href="homepage.html">Home</a></li>
+	<li><a href="registration.html">Registration Form</a></li>
+</ul>
+<form action="details.html" method="get">
+<p>
+	<label for="fname">First Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="text" id="fname" name="firstname" ><br></p>
+	<p><label for="emailid">Email id:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="email" id="emailid" name="emailid" ><br></p>
+	<p><label for="mobileno">Mobile No:  </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="number" id="mobileno" name="mobileno"><br></p>
+    <p><label for="radio">Gender:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+	<input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label></p>
+  <p>
+  <label for="checkbox">Reason For RDIP:</label>
+  <input type="checkbox" id="html" name="html" value="html">
+  <label for="html">HTML</label>
+  <input type="checkbox" id="css" name="css" value="css">
+  <label for="vehicle2">CSS</label>
+  <input type="checkbox" id="javascript" name="javascript" value="javascript">
+  <label for="javascript">JavaScript</label></p>
+  <p><label for="college">college name:  </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="text" id="college" name="college" ></p>
+  <p><input type="checkbox" id="true" name="true" value="true">
+  <label for="true">I Declare above details given by me are true</label></p>
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</form>
